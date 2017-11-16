@@ -2,6 +2,8 @@
 javaWeb 项目练习(网店商城)
 ## 购物商城核心功能
 
+![思维导图](https://github.com/tuwenyuan/shopping/blob/master/WebRoot/images/s11.png)
+
 #### 一、前台页面
 
 1、默认主页：
@@ -38,11 +40,13 @@ e、按照分类进行商品的查询：商品的分类是由后台维护的
 
 3、书籍管理：查询分页
 
-![书籍管理：查询分页](https://github.com/tuwenyuan/shopping/blob/master/WebRoot/images/s8.png)
+![查询分页](https://github.com/tuwenyuan/shopping/blob/master/WebRoot/images/s8.png)
+
+![书籍管理](https://github.com/tuwenyuan/shopping/blob/master/WebRoot/images/s9.png)
 
 4、订单管理
 
-![订单管理](https://github.com/tuwenyuan/shopping/blob/master/WebRoot/images/s9.png)
+![订单管理](https://github.com/tuwenyuan/shopping/blob/master/WebRoot/images/s10.png)
 
 
 
