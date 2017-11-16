@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <filter>
+  	<filter-name>AllCharacterSetFilter</filter-name>
+  	<filter-class>com.twy.filter.AllCharacterSetFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>AllCharacterSetFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <servlet>
+    <servlet-name>ManagerServlet</servlet-name>
+    <servlet-class>com.twy.web.controller.ManagerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClientServlet</servlet-name>
+    <servlet-class>com.twy.web.controller.ClientServlet</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>ManagerServlet</servlet-name>
+    <url-pattern>/manager/ManagerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClientServlet</servlet-name>
+    <url-pattern>/client/ClientServlet</url-pattern>
+  </servlet-mapping>	
+<!--   <filter> -->
+<!--   	<filter-name>PermissionFilter</filter-name> -->
+<!--   	<filter-class>com.itheima.filter.PermissionFilter</filter-class> -->
+<!--   </filter> -->
+<!--   <filter-mapping> -->
+<!--   	<filter-name>PermissionFilter</filter-name> -->
+<!--   	<url-pattern>/manager/*</url-pattern> -->
+<!--   </filter-mapping> -->
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <error-page>
+  	<exception-type>java.lang.Exception</exception-type>
+  	<location>/message.jsp</location>
+  </error-page>
+</web-app>

@@ -1,0 +1,11 @@
+body {
+	text-align: center;
+	font-size: 12px;
+}
+
+.divNormalClass {
+	width: 440px;
+	height: 360px;
+	border: 1px;
+	text-align: left;
+}
