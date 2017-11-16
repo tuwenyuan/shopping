@@ -2,7 +2,7 @@
 javaWeb 项目练习(网店商城)
 ## 购物商城核心功能
 
-![思维导图](https://github.com/tuwenyuan/shopping/blob/master/WebRoot/images/s11.png)
+![思维导图](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/s11.png)
 
 #### 一、前台页面
 
